@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace file_organizer
+namespace FIleOrganizer.Core
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
