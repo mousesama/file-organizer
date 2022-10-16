@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E19AAB93-5445-4E7E-9A41-E4A3D553DE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIleOrganizer.Core.Tests", "src\Tests\FIleOrganizer.Core.Tests\FIleOrganizer.Core.Tests.csproj", "{54814BBF-FDD9-4277-A0F5-15ABC8277ACA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Data.Tests", "src\Tests\FileOrganizer.Data.Tests\FileOrganizer.Data.Tests.csproj", "{A3EE6D24-E62F-4BB7-80F4-D8B8266208D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Models.Tests", "src\Tests\FileOrganizer.Models.Tests\FileOrganizer.Models.Tests.csproj", "{A80ABDF3-3771-4A4E-8382-4E5CBFB4A9CF}"
@@ -14,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Services.Tests", "src\Tests\FileOrganizer.Services.Tests\FileOrganizer.Services.Tests.csproj", "{2FF73A28-1D7C-4C62-A477-50E8C5F27A3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Utilities.Tests", "src\Tests\FileOrganizer.Utilities.Tests\FileOrganizer.Utilities.Tests.csproj", "{5E926F8A-9C93-4BD4-8379-E1B0710D9581}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIleOrganizer.Core", "src\FIleOrganizer.Core\FIleOrganizer.Core.csproj", "{553C7400-7312-465F-B39F-4F3340A1DFA5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Data", "src\FileOrganizer.Data\FileOrganizer.Data.csproj", "{5E5ADE5C-B60B-416B-AF6D-32B1CE1D1435}"
 EndProject
@@ -25,16 +21,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Services", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Utilities", "src\FileOrganizer.Utilities\FileOrganizer.Utilities.csproj", "{441B1D4E-7E5F-4E75-B917-88FD2B5E25D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Core", "src\FileOrganizer.Core\FileOrganizer.Core.csproj", "{89474979-26BA-4AFB-B8C9-B79B94E31837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Core.Tests", "src\Tests\FileOrganizer.Core.Tests\FileOrganizer.Core.Tests.csproj", "{E92759AD-C998-4BA8-83CF-225010F82BD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54814BBF-FDD9-4277-A0F5-15ABC8277ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54814BBF-FDD9-4277-A0F5-15ABC8277ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54814BBF-FDD9-4277-A0F5-15ABC8277ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54814BBF-FDD9-4277-A0F5-15ABC8277ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A3EE6D24-E62F-4BB7-80F4-D8B8266208D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3EE6D24-E62F-4BB7-80F4-D8B8266208D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EE6D24-E62F-4BB7-80F4-D8B8266208D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,10 +47,6 @@ Global
 		{5E926F8A-9C93-4BD4-8379-E1B0710D9581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E926F8A-9C93-4BD4-8379-E1B0710D9581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E926F8A-9C93-4BD4-8379-E1B0710D9581}.Release|Any CPU.Build.0 = Release|Any CPU
-		{553C7400-7312-465F-B39F-4F3340A1DFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553C7400-7312-465F-B39F-4F3340A1DFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553C7400-7312-465F-B39F-4F3340A1DFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553C7400-7312-465F-B39F-4F3340A1DFA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E5ADE5C-B60B-416B-AF6D-32B1CE1D1435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E5ADE5C-B60B-416B-AF6D-32B1CE1D1435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5ADE5C-B60B-416B-AF6D-32B1CE1D1435}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,6 +63,14 @@ Global
 		{441B1D4E-7E5F-4E75-B917-88FD2B5E25D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441B1D4E-7E5F-4E75-B917-88FD2B5E25D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441B1D4E-7E5F-4E75-B917-88FD2B5E25D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89474979-26BA-4AFB-B8C9-B79B94E31837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89474979-26BA-4AFB-B8C9-B79B94E31837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89474979-26BA-4AFB-B8C9-B79B94E31837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89474979-26BA-4AFB-B8C9-B79B94E31837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92759AD-C998-4BA8-83CF-225010F82BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92759AD-C998-4BA8-83CF-225010F82BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92759AD-C998-4BA8-83CF-225010F82BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92759AD-C998-4BA8-83CF-225010F82BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,10 +79,10 @@ Global
 		SolutionGuid = {C0F3F6F2-BC0F-442B-8A68-3B9CB84B8471}
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{54814BBF-FDD9-4277-A0F5-15ABC8277ACA} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
 		{A3EE6D24-E62F-4BB7-80F4-D8B8266208D0} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
 		{A80ABDF3-3771-4A4E-8382-4E5CBFB4A9CF} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
 		{2FF73A28-1D7C-4C62-A477-50E8C5F27A3A} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
 		{5E926F8A-9C93-4BD4-8379-E1B0710D9581} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
+		{E92759AD-C998-4BA8-83CF-225010F82BD9} = {E19AAB93-5445-4E7E-9A41-E4A3D553DE28}
 	EndGlobalSection
 EndGlobal
