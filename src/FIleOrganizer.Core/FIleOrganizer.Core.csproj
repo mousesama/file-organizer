@@ -15,13 +15,13 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Extended.Wpf.Toolkit" Version="4.4.0" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0-rc.2.22472.3" />
       <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controls" />
-      <Folder Include="Resources" />
+      <Folder Include="Resources\ResourceStrings" />
       <Folder Include="ViewModels\Dialogs" />
       <Folder Include="Views\Dialogs" />
     </ItemGroup>
