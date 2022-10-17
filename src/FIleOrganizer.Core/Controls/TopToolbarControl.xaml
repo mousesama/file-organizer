@@ -13,9 +13,9 @@
         <Style BasedOn="{StaticResource TopToolbarButton}" TargetType="Button" />
         <viewModels:TopToolbarViewModel x:Key="ViewModel" />
     </UserControl.Resources>
-    <Window.DataContext>
+    <UserControl.DataContext>
         <Binding Source="{StaticResource ViewModel}" />
-    </Window.DataContext>
+    </UserControl.DataContext>
     <StackPanel HorizontalAlignment="Stretch" Orientation="Horizontal">
         <Button Content="Placeholder" />
     </StackPanel>
