@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FileOrganizer.Core\FileOrganizer.Core.csproj" />
+      <ProjectReference Include="..\FileOrganizer.Data\FileOrganizer.Data.csproj" />
+    </ItemGroup>
+
 </Project>

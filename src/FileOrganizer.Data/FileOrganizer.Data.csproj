@@ -11,4 +11,8 @@
       <Folder Include="Repositories\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FileOrganizer.Core\FileOrganizer.Core.csproj" />
+    </ItemGroup>
+
 </Project>
