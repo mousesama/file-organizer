@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.UI", "src\FileOrganizer.UI\FileOrganizer.UI.csproj", "{58FDFA05-90F1-4E92-BDD5-F6D8BC56591E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Core", "src\FileOrganizer.Core\FileOrganizer.Core.csproj", "{1B5A7FD7-2E6E-4227-B893-32C14947360C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Data", "src\FileOrganizer.Data\FileOrganizer.Data.csproj", "{5CA8FFC5-B142-40EE-8584-5EADE3D04AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.Services", "FileOrganizer.Services\FileOrganizer.Services.csproj", "{0CF3F637-735F-4B44-B9C6-525E96E3B8A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{43B87DF6-A1DE-4589-A889-885118C388CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileOrganizer.UI.Tests", "tests\FileOrganizer.UI.Tests\FileOrganizer.UI.Tests.csproj", "{CED126F4-EF4B-4F81-9277-0298B23B9998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58FDFA05-90F1-4E92-BDD5-F6D8BC56591E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FDFA05-90F1-4E92-BDD5-F6D8BC56591E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FDFA05-90F1-4E92-BDD5-F6D8BC56591E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FDFA05-90F1-4E92-BDD5-F6D8BC56591E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5A7FD7-2E6E-4227-B893-32C14947360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5A7FD7-2E6E-4227-B893-32C14947360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5A7FD7-2E6E-4227-B893-32C14947360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5A7FD7-2E6E-4227-B893-32C14947360C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA8FFC5-B142-40EE-8584-5EADE3D04AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA8FFC5-B142-40EE-8584-5EADE3D04AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA8FFC5-B142-40EE-8584-5EADE3D04AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA8FFC5-B142-40EE-8584-5EADE3D04AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF3F637-735F-4B44-B9C6-525E96E3B8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF3F637-735F-4B44-B9C6-525E96E3B8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF3F637-735F-4B44-B9C6-525E96E3B8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF3F637-735F-4B44-B9C6-525E96E3B8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED126F4-EF4B-4F81-9277-0298B23B9998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED126F4-EF4B-4F81-9277-0298B23B9998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED126F4-EF4B-4F81-9277-0298B23B9998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED126F4-EF4B-4F81-9277-0298B23B9998}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CED126F4-EF4B-4F81-9277-0298B23B9998} = {43B87DF6-A1DE-4589-A889-885118C388CE}
+	EndGlobalSection
+EndGlobal
