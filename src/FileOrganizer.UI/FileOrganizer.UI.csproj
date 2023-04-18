@@ -18,4 +18,9 @@
       <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0-preview2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FileOrganizer.Core\FileOrganizer.Core.csproj" />
+      <ProjectReference Include="..\FileOrganizer.Services\FileOrganizer.Services.csproj" />
+    </ItemGroup>
+
 </Project>
